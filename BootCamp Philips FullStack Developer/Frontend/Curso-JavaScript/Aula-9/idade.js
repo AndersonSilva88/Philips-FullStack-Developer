@@ -18,4 +18,4 @@ const animal = {
     raca: 'Golden Retriver'
 };
 
-console.log(calculaIdade.call(animal, [10]));
+console.log(calculaIdade.apply(animal, [10]));
